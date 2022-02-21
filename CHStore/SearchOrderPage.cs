@@ -43,7 +43,7 @@ namespace CHStore
             ui.Show();
             Close();
         }
-
+        //Выход из окна поиска заказа
         private void SearchOrderPage_FormClosed(object sender, FormClosedEventArgs e)
         {
             var ui=Application.OpenForms[1];
